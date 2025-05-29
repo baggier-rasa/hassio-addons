@@ -15,6 +15,9 @@ schema:
   APP_URL: str
   TRUST_PROXY: bool
   MAXMIND_LICENSE_KEY: str?
+map:
+- type: data
+  path: /app/data
 ports:
   1411/tcp: 1411
 init: false
